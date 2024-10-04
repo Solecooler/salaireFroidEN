@@ -1,0 +1,71 @@
+/*Police poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+p{
+    margin: 0;
+}
+
+.calculator {
+    padding-top: 5px;
+    border-radius: 5px;
+    font-family: Poppins, sans-serif;
+}
+.salarié{
+      display: flex;
+      align-items: center;
+      height: 30px;
+  }
+.Enonce{
+    font-size: 25px;
+}
+#initial-value{
+    border: none;
+    appearance: none;
+    font-size: 15pt;
+  }
+.input-group {
+    margin-top: 10px;
+  }
+  
+input[type="number"] {
+    width: 65%;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-style: italic;
+    font-size: 15pt !important;
+    margin-left: 5px;
+    appearance: none;
+    outline: none;
+    background-color: #ffffff00;
+}
+.result {
+    font-weight: bold;
+    font-size: 25px;
+}
+#result-value{
+    color: #E12C27;
+}
+@media screen and (max-width:440px) {
+    .calculator{
+        margin: 0px auto;
+        /*padding-right: 70px;*/
+        border-radius: 5px;
+        font-family: Poppins, sans-serif;
+    }
+    .salarié{
+        display: flex;
+        align-items: center;
+        height: 93px;
+        flex-direction: column;
+        margin-left: -60px;
+    }
+    .result{
+        font-weight: 600;
+        font-size: 18pt;
+    }
+    .Enonce{
+        font-size: 18pt;
+        margin: 0;
+    }
+}
