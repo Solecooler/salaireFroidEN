@@ -69,3 +69,40 @@ input[type="number"] {
         margin: 0;
     }
 }
+@media screen and (max-width:234px) {
+    .calculator{
+        margin: 0px auto;
+        /*padding-right: 70px;*/
+        border-radius: 5px;
+        font-family: Poppins, sans-serif;
+    }
+    .salarié{
+        display: flex;
+        align-items: center;
+        height: 93px;
+        flex-direction: column;
+        margin-left: 0px !important;
+    }
+    .result{
+        font-weight: 600;
+        font-size: 14pt;
+        padding-top: 15px;
+    }
+    .Enonce{
+        font-size: 18pt;
+        margin: 0;
+    }
+    input[type="number"] {
+    width: 65%;
+    padding-bottom: 7px;
+    padding-left: 0px !important;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-style: italic;
+    font-size: 15pt !important;
+    margin-left: 0px !important;
+    appearance: none;
+    outline: none;
+    background-color: #ffffff00;
+}
+}
